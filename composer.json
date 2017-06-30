@@ -1,0 +1,22 @@
+{
+	"name": "symbiote/silverstripe-thrive",
+	"description": "Symbiote Thrive - SilverStripe modules for building sites in AWS",
+    	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
+	"require": {
+		"symbiote/silverstripe-s3cdn": "~4.0",
+		"symbiote/silverstripe-sqs-jobqueue": "~2.0",
+		"symbiote/silverstripe-sesmail": "~3.0",
+		"aws/aws-sdk-php": "~3.1"
+	},
+	"extra": {
+		"installer-name": "thrive",
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	},
+	"suggest": {
+		"symbiote-library/silverstripe-elastica": "~3.0"
+	},
+	"minimum-stability": "dev"
+}
