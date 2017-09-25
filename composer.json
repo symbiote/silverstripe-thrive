@@ -4,9 +4,12 @@
     	"type": "silverstripe-module",
 	"license": "BSD-3-Clause",
 	"require": {
+		"nyeholt/silverstripe-restrictedcms": "~1.0",
+		"symbiote/silverstripe-sesmail": "~3.0",
+		"silverstripe-australia/mailcapture": "~2.0",
 		"symbiote/silverstripe-s3cdn": "~4.0",
 		"symbiote/silverstripe-sqs-jobqueue": "~2.0",
-		"symbiote/silverstripe-sesmail": "~3.0",
+
 		"aws/aws-sdk-php": "~3.1"
 	},
 	"extra": {
@@ -16,7 +19,11 @@
 		}
 	},
 	"suggest": {
-		"symbiote-library/silverstripe-elastica": "~3.0"
+		"symbiote-library/silverstripe-elastica": "This provides elastic search support.",
+		"tractorcow/silverstripe-dynamiccache": "This allows simple yet flexible caching out of the box for dynamic content, including forms.",
+		"andrelohmann-silverstripe/cache-backends": "This provides redis support for dynamic cache.",
+
+		"symbiote/silverstripe-seed": "The recommended module compilation for a base project."
 	},
 	"minimum-stability": "dev"
 }
